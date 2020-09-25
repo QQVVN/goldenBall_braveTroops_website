@@ -1,0 +1,27 @@
+@import "_reset_css.scss";
+
+@mixin clearfix {
+    &:after,
+    &:before {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+    *zoom: 1;
+}
+
+html {
+    font-family: Microsoft JhengHei;
+    background: #060f16;
+    min-width: 1300px;
+    height: 100%;
+    overflow: hidden;
+    @supports (-webkit-touch-callout: none) {
+        position: absolute;
+        transform: scale(0.8);
+        top: -10%;
+        left: -14%;
+    }
+}
