@@ -25,3 +25,97 @@ html {
         left: -14%;
     }
 }
+
+main {
+    position: relative;
+    min-width: 1300px;
+    height: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    article {
+        position: relative;
+        width: 1000px;
+        margin: 0 auto;
+        .logo {
+            position: absolute;
+            background: url(../images/logo.png) no-repeat top center;
+            background-size: 200%;
+            background-position: 0 0;
+            width: 427px;
+            height: 268px;
+            top: 19px;
+            left: 6px;
+        }
+        .login {
+            position: absolute;
+            width: 415px;
+            height: 178px;
+            top: 307px;
+            left: 6px;
+            background-color: #000;
+            .t {
+                background-color: #fff;
+                width: 415px;
+                height: 54px;
+                margin: 0 0 45px 0;
+                @include clearfix;
+                .n,
+                .o {
+                    float: left;
+                    background-color: red;
+                    width: 200px;
+                    height: 54px;
+                }
+                .n {
+                    margin: 0 15px 0 0;
+                }
+            }
+            .b {
+                background-color: #fff;
+                width: 415px;
+                height: 81px;
+                .l {
+                    float: left;
+                    background-color: red;
+                    width: 250px;
+                    height: 81px;
+                }
+                .r {
+                    background-color: red;
+                    float: left;
+                    width: 143px;
+                    height: 81px;
+                }
+                .l {
+                    margin: 0 22px 0 0;
+                }
+            }
+        }
+        .image2 {
+            position: absolute;
+            background: url(../images/image2.png) no-repeat top center;
+            background-size: 100%;
+            width: 825px;
+            height: 643px;
+            top: 37px;
+            left: 483px;
+        }
+        .image1 {
+            position: absolute;
+            background: url(../images/image1.png) no-repeat top center;
+            background-size: 100%;
+            width: 523px;
+            height: 622px;
+            top: 209px;
+            left: 442px;
+        }
+    }
+    .bg {
+        position: absolute;
+        background: url(../images/bg.jpg) no-repeat top center;
+        background-size: 1920px;
+        width: 100%;
+        height: 100%;
+        z-index: -20;
+    }
+}
