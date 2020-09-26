@@ -14,7 +14,7 @@
 
 html {
     font-family: Microsoft JhengHei;
-    background: #060f16;
+    background: #fedc00;
     min-width: 1300px;
     height: 100%;
     overflow: hidden;
@@ -71,7 +71,7 @@ main {
                     border-radius: 30px;
                     border: 1px solid #f3de95;
                     box-shadow: 0px 10px 10px -5px #000;
-                    background: #5a3f0f;
+                    background: #d08f28;
                     background: linear-gradient(
                         to top,
                         #782900 0%,
@@ -120,6 +120,7 @@ main {
                             background: #000;
                             outline: none;
                             padding: 0 0 0 5px;
+                            width: 198px;
                         }
                     }
                     .lt {
@@ -139,7 +140,7 @@ main {
                     border-radius: 5px;
                     border: 1px solid #f3de95;
                     box-shadow: 0px 10px 10px -5px #000;
-                    background: #5a3f0f;
+                    background: #d08f28;
                     background: linear-gradient(
                         to top,
                         #782900 0%,
