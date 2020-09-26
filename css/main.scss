@@ -52,9 +52,7 @@ main {
             height: 178px;
             top: 307px;
             left: 6px;
-            background-color: #000;
             .t {
-                background-color: #fff;
                 width: 415px;
                 height: 54px;
                 margin: 0 0 45px 0;
@@ -62,32 +60,104 @@ main {
                 .n,
                 .o {
                     float: left;
-                    background-color: red;
-                    width: 200px;
-                    height: 54px;
+                    width: 198px;
+                    height: 52px;
+                    line-height: 52px;
+                    text-align: center;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #1d0c00;
+                    cursor: pointer;
+                    border-radius: 30px;
+                    border: 1px solid #f3de95;
+                    box-shadow: 0px 10px 10px -5px #000;
+                    background: #5a3f0f;
+                    background: linear-gradient(
+                        to top,
+                        #782900 0%,
+                        #d08f28 15%,
+                        #974e00 30%,
+                        #b05c01 37%,
+                        #fff4ac 73%,
+                        #e9ae3a 95%,
+                        #b03d01 100%
+                    );
+                    &:hover,
+                    &:active,
+                    &.active {
+                        color: #fff;
+                        border: 1px solid #f90000;
+                        background: #8e0002;
+                        background: linear-gradient(to top, #2a0000 0%, #8e0002 59%, #ff0000 100%);
+                    }
                 }
                 .n {
                     margin: 0 15px 0 0;
                 }
             }
             .b {
-                background-color: #fff;
                 width: 415px;
                 height: 81px;
+                @include clearfix;
                 .l {
                     float: left;
-                    background-color: red;
-                    width: 250px;
+                    width: 254px;
                     height: 81px;
+                    margin: 0 18px 0 0;
+                    .lt,
+                    .lb {
+                        width: 246px;
+                        height: 32px;
+                        line-height: 32px;
+                        margin: 0 22px 0 0;
+                        font-size: 19px;
+                        color: #fff;
+                        border: 1px solid #f3de95;
+                        border-radius: 3px;
+                        background: #000;
+                        padding: 0 0 0 6px;
+                        input {
+                            background: #000;
+                            outline: none;
+                            padding: 0 0 0 5px;
+                        }
+                    }
+                    .lt {
+                        margin: 0 0 13px 0;
+                    }
                 }
                 .r {
-                    background-color: red;
                     float: left;
-                    width: 143px;
-                    height: 81px;
-                }
-                .l {
-                    margin: 0 22px 0 0;
+                    width: 141px;
+                    height: 79px;
+                    line-height: 79px;
+                    text-align: center;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #1d0c00;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    border: 1px solid #f3de95;
+                    box-shadow: 0px 10px 10px -5px #000;
+                    background: #5a3f0f;
+                    background: linear-gradient(
+                        to top,
+                        #782900 0%,
+                        #d08f28 15%,
+                        #974e00 30%,
+                        #b05c01 37%,
+                        #fff4ac 73%,
+                        #e9ae3a 95%,
+                        #b03d01 100%
+                    );
+                    &:hover,
+                    &:active,
+                    &.active {
+                        color: #fff;
+                        border: 1px solid #f90000;
+                        background: #8e0002;
+                        background: linear-gradient(to top, #2a0000 0%, #8e0002 59%, #ff0000 100%);
+                    }
                 }
             }
         }
