@@ -170,6 +170,8 @@ main {
             height: 643px;
             top: 37px;
             left: 483px;
+            animation: bounceIn;
+            animation-duration: 1s;
         }
         .image1 {
             position: absolute;
@@ -179,6 +181,8 @@ main {
             height: 622px;
             top: 209px;
             left: 442px;
+            animation: bounceIn;
+            animation-duration: 1s;
         }
     }
     .bg {

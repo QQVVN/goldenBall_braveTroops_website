@@ -217,6 +217,8 @@ main article .image2 {
   height: 643px;
   top: 37px;
   left: 483px;
+  animation: bounceIn;
+  animation-duration: 1s;
 }
 main article .image1 {
   position: absolute;
@@ -226,6 +228,8 @@ main article .image1 {
   height: 622px;
   top: 209px;
   left: 442px;
+  animation: bounceIn;
+  animation-duration: 1s;
 }
 main .bg {
   position: absolute;
