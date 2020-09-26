@@ -184,6 +184,13 @@ main article .login .b .l .lb input {
   padding: 0 0 0 5px;
   width: 198px;
 }
+@supports (-webkit-touch-callout: none) {
+  main article .login .b .l .lt input,
+main article .login .b .l .lb input {
+    padding: 0;
+    width: 198px;
+  }
+}
 main article .login .b .l .lt {
   margin: 0 0 13px 0;
 }

@@ -121,6 +121,10 @@ main {
                             outline: none;
                             padding: 0 0 0 5px;
                             width: 198px;
+                            @supports (-webkit-touch-callout: none) {
+                                padding: 0;
+                                width: 198px;
+                            }
                         }
                     }
                     .lt {
