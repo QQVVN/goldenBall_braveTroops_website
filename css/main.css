@@ -177,12 +177,6 @@ main article .login .b .l .lb {
   background: #000;
   padding: 0 0 0 6px;
 }
-@supports (-webkit-touch-callout: none) {
-  main article .login .b .l .lt,
-main article .login .b .l .lb {
-    font-size: 16px;
-  }
-}
 main article .login .b .l .lt input,
 main article .login .b .l .lb input {
   background: #000;
@@ -194,7 +188,7 @@ main article .login .b .l .lb input {
   main article .login .b .l .lt input,
 main article .login .b .l .lb input {
     padding: 0;
-    height: 28px;
+    height: 20px;
     width: 190px;
   }
 }
