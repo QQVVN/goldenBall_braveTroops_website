@@ -95,14 +95,14 @@ main article .logo {
   width: 427px;
   height: 268px;
   top: 19px;
-  left: 6px;
+  left: -50px;
 }
 main article .login {
   position: absolute;
   width: 415px;
   height: 178px;
   top: 307px;
-  left: 6px;
+  left: -50px;
 }
 main article .login .t {
   width: 415px;
@@ -222,8 +222,8 @@ main article .image2 {
   background-size: 100%;
   width: 825px;
   height: 643px;
-  top: 37px;
-  left: 483px;
+  top: -2px;
+  left: 413px;
   animation: bounceIn;
   animation-duration: 1s;
 }
@@ -231,10 +231,10 @@ main article .image1 {
   position: absolute;
   background: url(../images/image1.png) no-repeat top center;
   background-size: 100%;
-  width: 523px;
-  height: 622px;
-  top: 209px;
-  left: 442px;
+  width: 518px;
+  height: 672px;
+  top: 166px;
+  left: 383px;
   animation: bounceIn;
   animation-duration: 1s;
 }

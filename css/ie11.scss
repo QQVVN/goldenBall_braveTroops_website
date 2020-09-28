@@ -1,5 +1,5 @@
-.iebg {
-    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .iebg {
         display: block;
         position: absolute;
         background: url(../images/bg.jpg) no-repeat top center;
