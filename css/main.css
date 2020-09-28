@@ -188,6 +188,7 @@ main article .login .b .l .lb input {
   main article .login .b .l .lt input,
 main article .login .b .l .lb input {
     padding: 0;
+    font-size: 16px;
     width: 190px;
   }
 }
